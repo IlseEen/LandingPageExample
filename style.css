@@ -1,0 +1,191 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.heroEersteRij {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#herologo {
+    font-size: 24px;
+}
+
+.right-links {
+    margin-left: auto;
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.heroTweederij {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    padding: 30px 100px 100px 100px;
+}
+
+.heroLinkerrij {
+    size: 30%;
+    padding-right: 130px;
+}
+
+.heroheadtext {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.herosubtext {
+    padding: 30px 30px 30px 0px;
+    font-size: 18px;
+    font: #E5E7EB;
+}
+
+.herobutton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+#heroimage {
+    width: 30%;
+    height: auto;
+}
+
+.para1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.para1text {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 30px;
+}
+
+.para1tegels {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    gap: 40px;
+    
+}
+
+.tegelunit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tegelunit img {
+    width: 200px;
+    height: 200px;
+    border-color: #3882F6;
+    border-radius: 10%;
+}
+
+.tegeltekst {
+    text-align: center;
+    font-size: 18px;
+    color: #9b9c9e;
+    padding: 0px 10px 0px 10px;
+}
+
+.para2 {
+    background-color: #E5E7EB;
+    padding: 80px 100px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 150;
+    text-align: center;
+}
+
+#person {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+}
+
+.para3 {
+    padding: 100px 180px;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.para3container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+
+.para3tekst {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.para3head {
+    font-size: 24px;
+}
+
+.para3sub {
+    color: #d9dadb;
+}
+
+.para3button {
+    margin-left: auto;
+    border-style: solid;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 10px;
+    box-shadow: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 13px;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: center;
+}
